@@ -1,0 +1,18 @@
+---
+title: "Data Modelling"
+format: html
+---
+
+# Exploring the snow survey data
+
+```{r}
+# load in libraries
+library(tidyverse)
+
+# read in data
+snow_survey_data <- read_csv("hw1", "data", "ASDN_Snow_survey.csv")
+observer_data <- read_csv("hw1", "data", "personnel.csv")
+site_data <- read_csv("hw1", "data", "site.csv")
+species_data <- read_csv("hw1", "data", "species.csv")
+```
+
